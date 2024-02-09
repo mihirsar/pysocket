@@ -21,14 +21,12 @@ This repository contains a simple demonstration of socket programming in Python,
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/python-socket-dataframe-transmission.git
+    git clone https://github.com/mihirsar/pysocket.git
     ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd python-socket-dataframe-transmission
-    ```
+    
 
 3. Install the required dependencies:
 
@@ -52,10 +50,9 @@ This repository contains a simple demonstration of socket programming in Python,
 
 - `server.py`: Python script for the server side of the socket connection.
 - `client.py`: Python script for the client side of the socket connection.
-- `data_generation.py`: Python script for generating sample data (one million rows DataFrame).
-- `requirements.txt`: File containing the required Python dependencies.
+- `circuits.csv`: is a sample csv can be used as a demo
+- `requirements.txt`: required libs
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
