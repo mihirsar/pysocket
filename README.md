@@ -7,6 +7,7 @@ This repository contains a simple demonstration of socket programming in Python,
 - **Server-Client Network**: Establishes a network connection between a server and a client using Python's socket module.
 - **DataFrame Transmission**: Demonstrates sending a DataFrame with one million rows from the client to the server over the network.
 - **Sample Data**: Includes sample data generation for creating a large DataFrame for transmission.
+- **Issues Faced**: One challenge encountered is when transmitting a large DataFrame, the `.recv()` function accumulates data in its buffer. As a result, when sending a larger DataFrame, there's a risk of buffer overflow. Ideally, the data should be paged to prevent this issue, but currently, this isn't happening.
 
 ## Requirements
 
@@ -52,7 +53,7 @@ This repository contains a simple demonstration of socket programming in Python,
 - `client.py`: Python script for the client side of the socket connection.
 - `circuits.csv`: is a sample csv can be used as a demo
 - `requirements.txt`: required libs
-- `1 million rows sample dataset`: https://drive.google.com/file/d/1ybpgbZDv1XKSmWACZbwTkjBai-_hspeu/view?usp=drive_link
+- `1 million rows sample dataset`: [Drive link](https://drive.google.com/file/d/1UhKJRCwCglC3tmBQwS9pgd0wgnGMsjrd/view?usp=drive_link)
 
 
 
